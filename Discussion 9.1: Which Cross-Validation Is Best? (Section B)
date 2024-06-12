@@ -1,0 +1,66 @@
+Hi I have used this data for employees in their work where it will be predicted through the individual's behavior and education whether or not he will be punished for getting a raise in pay.
+
+The dataset is very small and contains only 1000 samples with 5 features
+
+0 Education 1000 non-null object 1
+
+JoiningYear 1000 non-null int64 2
+
+City 1000 non-null object 3
+
+PaymentTier 1000 non-null int64 4
+
+Age 1000 non-null int64 5
+
+Gender 1000 non-null object 6
+
+EverBenched 1000 non-null object 7
+
+ExperienceInCurrentDomain 1000
+
+non-null int64 8 LeaveOrNot 1000 non-null int64
+
+I have used k-fold  :
+
+Converting text data to numeric: LabelEncoder is used to convert the text values ​​in the columns ‘Education’, ‘City’, ‘Gender’, and ‘EverBenched’ to numeric values. This is necessary because statistical models require numeric data for training.
+
+Data partitioning: The data is partitioned into two sets: X which contains the independent variables after removing the ‘PaymentTier’ column, and y which contains the dependent variable ‘PaymentTier’.
+
+Model selection: LinearRegression model can be used.
+
+K-Fold cross-validation: KFold is used to perform 5-part cross-validation, which helps in evaluating the performance of the model better.
+Predictions: cross_val_predict is used to obtain the predictions from the model using cross-validation.
+Calculating MSE and RMSE: The mean squared error (MSE) and the root mean squared error (RMSE) are calculated to evaluate the performance of the model.
+MSE: 0.2634166623838147
+
+RMSE: 0.5132413295749035
+
+Stratified Cross Validation :
+
+**Convert text data to numeric**: The `LabelEncoder` code is used to convert the text values ​​in the columns 'Education', 'City', and 'Gender' to numeric values. This allows the model to process the data correctly.
+**Data partitioning**: The data is partitioned into two sets, `X` which contains the independent variables and `y` which contains the dependent variable 'PaymentTier'.
+**Model selection**: A `Ridge` model is used with a regularization parameter `alpha` set to 1.0.
+**Feature selection**: A `SequentialFeatureSelector` is used to select the top 3 features that contribute to the model's prediction.
+**Pipeline creation**: The feature selection and model implementation process is consolidated into a `Pipeline` to facilitate cross-validation and prediction.
+**Cross-validation**: **Stratified Cross Validation**, .
+**Predicts**: `cross_val_predict` is used to get the predictions from the model.
+**MSE and RMSE Calculation**: The mean square error (MSE) and root mean square error (RMSE) are calculated to evaluate the performance of the model.
+The calculated results of MSE and RMSE show the performance of the model and the estimates of the error in the predictions.
+
+When considering a choice between **K-Fold Cross Validation** and **Stratified Cross Validation**, the decision depends on the nature of the data and what we want to achieve from the analysis.
+
+For a small dataset with only 1000 samples, **Stratified Cross Validation** may be more appropriate, especially if the data is unbalanced across classes. **Stratified Cross Validation** ensures that each cross-validation fold contains a proportional representation of each class, which helps maintain the distribution of classes and reduces bias in the evaluation of model performance.
+
+On the other hand, **K-Fold Cross Validation** can be sufficient if the data is balanced and does not contain rare or uneven classes. However, in the case of small data, **K-Fold Cross Validation** may not be sufficient to ensure good representation of classes in each fold, which may lead to less accurate estimates of model performance.
+
+Based on the results presented, it appears that both models performed similarly in terms of MSE and RMSE. However, one cannot judge which one is better without considering the distribution of classes in the data. If the data is unbalanced, I tend to prefer **Stratified Cross Validation** for the reasons mentioned above.
+
+View in discussion-------------------------------------------------
+
+6:41pmLocal: Jun 12 at 6:41pm<br>Course: Jun 12 at 3:41pm
+. Potential impact of the experiment on different datasets: “You mentioned that the simple cross-validation model performed better than other models in this experiment. How do you think the performance of this model might change if it were applied to a larger, more diverse dataset in terms of the number of features and samples? What challenges might you face when applying the same model to a different dataset?”
+
+View in discussion------------------------------------------------
+
+6:43pmLocal: Jun 12 at 6:43pm<br>Course: Jun 12 at 3:43pm
+. Effect of age classification on the model: “I created an additional age range classification set to determine whether the population could be grouped based on age. How might this classification affect the model’s ability to predict stroke in different age groups, and what strategies could be used to improve the accuracy of predictions for each age group?”
