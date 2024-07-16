@@ -1,0 +1,25 @@
+Hello, From my point of view, I have this idea:
+
+Using logistic regression in the field of medical classification is very appropriate. For example, it can be used to determine whether a particular patient is at risk for a particular disease based on previous medical records and demographic variables such as age and gender.
+
+Dataset required:
+To support the logistic regression model in this context, we need a dataset that includes:
+
+Medical records: previous patient history, previous diagnoses, and treatments followed.
+Demographic variables: such as age, gender, race.
+Biological factors: such as medical test results and vital signs.
+Data collection methods:
+This data can be collected through electronic medical records and various medical databases. In addition, questionnaires can be used to collect demographic information. Privacy and security rules must be taken into account when collecting and using this data.
+
+This model may provide
+Early diagnosis: Identifying patients at risk for early intervention and immediate treatment.
+Disease risk prediction: Identifying factors affecting the risk of developing a particular disease to improve prevention and disease management.
+Finally, logistic regression is emerging as a powerful tool in medical classification, as it can be used to analyze and classify large medical data and make accurate evidence-based decisions. Using this model, medical institutions can improve the quality of healthcare and deliver treatments more effectively, benefiting patients and society at large.
+
+Q :
+Hello, thank you for your time:
+Importance of independent variables: Do you think that the variables used in the model (such as glucose level, BMI, and age) are sufficient to predict diabetes with high accuracy? Are there other variables that can be added to improve the model?
+Q2 :
+
+Hello, thank you for your time:
+Importance of pure data: Do you think the card data used in this model adequately reflects potential fraud behaviors? Are there other variables that could be added to improve fraud prediction accuracy? Such as analyzing card usage patterns or previous account activity history.
