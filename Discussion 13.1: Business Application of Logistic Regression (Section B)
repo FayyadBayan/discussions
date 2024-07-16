@@ -1,3 +1,16 @@
+Learning Outcome Addressed:
+1. Analyze the characteristics and advantages of logistic regression
+Throughout this module, Dr. Gomes demonstrated logistic regression, and you have had the opportunity to apply logistic regression to several different data structures. Each exercise has been specifically prepared for the learning context. Now, consider how it could be used in the real world. 
+
+In your initial post:
+
+Describe a context where logistic regression would be appropriate
+Describe the necessary dataset to support logistic regression in your chosen context
+If you can, suggest ways to gather this data
+Remember, there is no need to perform logistic regression on any data here. This is a purely conceptual discussion. No Jupyter Notebook submission is necessary.
+
+Read the statements posted by your peers. Engage with them by responding with thoughtful comments and questions to deepen the discussion.
+-----------------------------------------------------------------------------
 Hello, From my point of view, I have this idea:
 
 Using logistic regression in the field of medical classification is very appropriate. For example, it can be used to determine whether a particular patient is at risk for a particular disease based on previous medical records and demographic variables such as age and gender.
