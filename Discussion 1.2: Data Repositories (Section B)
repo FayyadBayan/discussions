@@ -1,0 +1,109 @@
+Learning Outcomes Addressed:
+4. Load data into a dataframe using pandas
+7. Draw business conclusions from datasets and visualizations
+In the previous video, you watched Dr. Gomes work with a number of datasets pulled from various data repositories. Now, it is your turn to explore online data repositories that are publicly available. Conduct an Internet search for data repositories in CSV format, which are available to the general public. Examples of places you could search for datasets are Kaggle Links to an external site.and Stack Overflow Links to an external site.. Select three to four datasets that are of interest to you. Then, for each dataset you choose, list the following information:
+
+A short description of the content of the data
+One or two possible business uses of the data
+The location (URL) of the dataset 
+A summary of the characteristics of the dataset using the describe() function in pandas
+Please note: You will use one of these datasets again later in this module, so please select an appropriately sized dataset for this program and your skill level. A dataset containing 10 columns and 500 rows is a good size to start. Hint: If your dataset contains data from many years, you may want to select just one year or a few years to work with later.
+
+This is a required discussion and counts toward program completion.
+___________________________________________________________________________________________________________
+Student Study Performance :
+discretion :
+
+ 1- This data understands how the student's performance (test scores) is affected by other variables such as Gender,
+
+Ethnicity, Parental level of education, Lunch and Test preparation course.
+
+ 2- This study would be useful in dealing with students according to their situation and the situation of their families and evaluating the situation accordingly .
+
+Use Case : 
+Regression analysis: To determine the relationship between students' grades and parents' education level, gender, or race.
+
+Path Analysis: To understand how various factors directly and indirectly affect academic performance.
+
+location :
+
+https://www.kaggle.com/datasets/bhavikjikadara/student-study-performanceLinks to an external site.
+
+_________________________________________________________________________
+
+Description: Glassdoor employee reviews across various industries in the UK.
+
+Use Case: Analyze sentiment on a company and identify the company's score on various topics like salary, work-life balance, promotions, mentorship, etc.
+
+Location: https://www.kaggle.com/datasets/davidgauthier/glassdoor-job-reviews
+
+View in discussion
+Anshika Verma
+Anshika Verma
+Apr 8, 2024Local: Apr 8 at 12:34am<br>Course: Apr 7 at 9:34pm
+Fayyad, Student study performance prediction is critical and it can inform the development of personalized learning pathways tailored to individual students' strengths, weaknesses, and learning styles. Through the analysis of historical performance data and learning behaviors, predictive models can recommend specific learning activities, resources, and interventions to help students achieve their academic goals.
+
+View in discussion
+FAYYAD BAYAN
+FAYYAD BAYAN
+Apr 15, 2024Local: Apr 15 at 4:52pm<br>Course: Apr 15 at 1:52pm
+hey jai :
+
+Regarding the fruit and vegetable prices data:
+
+What factors do you think significantly affect the prices of fruits and vegetables?
+Do you believe that changes in prices can affect people’s dietary choices, and how?
+Regarding the youth tobacco consumption data:
+
+What strategies do you see as effective in reducing tobacco use among youth?
+How can the data help identify patterns and trends in tobacco consumption?
+Regarding the obesity and lifestyle data:
+
+What challenges might you face in analyzing obesity data, and how can they be overcome?
+How can the data contribute to developing recommendation systems to monitor obesity levels?
+I look forward to hearing your views and discussing them with you. 😊
+
+View in discussion
+FAYYAD BAYAN
+FAYYAD BAYAN
+Apr 15, 2024Local: Apr 15 at 5:02pm<br>Course: Apr 15 at 2:02pm
+hey scott :
+
+1.  Classification of the ruins program on values ​​:
+    - What is the main station involved in the implementation of industrial equipment?
+    - How can a predictive model lead to production and production efficiency?
+
+2. Does alcohol affect success:
+    -What ratio do you see between alcohol consumption and students' academic performance?
+    - How can a model in the southern border enjoy consuming alcohol in students every now and then?
+
+3. Used Cars Dataset:
+    - What factors are involved in used car sales?
+    - In your opinion, when is the right time to buy a car and why?
+
+4. Water quality:
+    - What elements should be paid attention to when analyzing concentrations of heavy metals/chemicals in groundwater?
+    - How can data help determine the best areas to camp and which areas to avoid?
+
+I look forward to hearing your opinions and discussing them with you. 😊
+
+View in discussion
+FAYYAD BAYAN
+FAYYAD BAYAN
+Apr 15, 2024Local: Apr 15 at 5:05pm<br>Course: Apr 15 at 2:05pm
+Yes I agree with you
+
+View in discussion
+FAYYAD BAYAN
+FAYYAD BAYAN
+Apr 15, 2024Local: Apr 15 at 5:06pm<br>Course: Apr 15 at 2:06pm
+Yes, you can apply that and see the output
+
+View in discussion
+FAYYAD BAYAN
+FAYYAD BAYAN
+Apr 20, 2024Local: Apr 20 at 5:22pm<br>Course: Apr 20 at 2:22pm
+Toph, your exploration of failed banks data is intriguing, especially for investors and businesses evaluating financial institutions. I'm curious about the factors leading to bank failures and whether there are any patterns or warning signs to watch out for. Additionally, understanding the financial impact of these failures, as indicated by the estimated cost to the FDIC, could provide valuable context. Have you considered exploring correlations between a bank's assets/deposits and its likelihood of failure? (For example, examining the relationship between COST and QBFASSET or QBFDEP)
+Your analysis of electric vehicle registrations in Washington State presents exciting opportunities to study consumer behavior and environmental consciousness. Have you thought about investigating any government incentives or policies that might influence EV adoption rates? Also, exploring the relationship between electric range and vehicle type could offer insights into consumer preferences and market demands. (For instance, analyzing the distribution of Electric Range by Electric Vehicle Type)
+Transitioning mental health services from fee-for-service to managed care is a significant administrative change with potential implications for patient outcomes. I'm interested in exploring how patient engagement, readmission rates, and ambulatory follow-up have evolved over time in response to this transition. Do you think demographic or regional disparities might influence the delivery of mental health care services, and if so, how might these disparities impact patient outcomes? (Perhaps we could analyze the trend of 30-Day MH Engagement in Care by age group over time)
+View in discussion
