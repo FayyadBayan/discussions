@@ -1,0 +1,27 @@
+Learning Outcome Addressed:
+8. Compare neural networks to other machine learning methods
+Based on your experience or research, please provide three machine learning (ML) or artificial intelligence (AI) techniques that can be applied to your chosen field (business, health care, et cetera). Explain why these would be beneficial and how you would use them after the program.
+
+This is a required discussion and counts toward program completion.
+
+_________________
+
+Hello
+In healthcare, AI and machine learning technologies can be effectively used to improve the quality of healthcare and medical decision-making. Here are three main technologies that can be applied:
+Deep Learning**: Deep neural networks can be used to analyze medical images such as X-rays and MRIs, helping to diagnose diseases such as cancer and heart disease. This technology reduces reliance on the human eye and improves the accuracy of diagnoses.
+Time Series Analysis**: In monitoring the condition of chronic patients such as diabetes and blood pressure, time series analysis can be used to track changes in health status over time and predict potential health deteriorations, helping in early intervention.
+Natural Language Processing (NLP)**: This technology enables the analysis of large amounts of unstructured text such as medical records and reports. It can help uncover inconsistencies or errors in diagnoses or drug interactions, enhancing the quality of healthcare.
+
+Using these technologies, healthcare can become more accurate and efficient, while improving patient outcomes.
+
+View in discussion
+FAYYAD BAYAN
+FAYYAD BAYAN
+Oct 1, 2024Local: Oct 1 at 11:45pm<br>Course: Oct 1 at 8:45pm
+Hello, how can we improve the accuracy of predictive maintenance models using SVM under the constant changes in historical equipment failure data? And do you think there are other machine learning techniques that might be more effective in this area?
+
+View in discussion
+FAYYAD BAYAN
+FAYYAD BAYAN
+Oct 1, 2024Local: Oct 1 at 11:46pm<br>Course: Oct 1 at 8:46pm
+Hello: How can predictive analytics techniques be combined with Natural Language Processing (NLP) to improve ASIC design processes? Do you have examples of how these integrations can be used to improve product quality or speed up development?
