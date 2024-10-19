@@ -1,0 +1,119 @@
+Learning Outcomes Addressed:
+6. Create histograms and data visualizations
+7. Draw business conclusions from datasets and visualizations
+As a data scientist, you will be tasked with generating visualizations for decision-makers as a part of your analysis. This provides an opportunity to showcase the results of your work. Using personally-sourced data (see Discussion 1.2), create a visualization using the pandas plot() function (scatter, bar chart, line) and post your most interesting results. For the visualization that you selected, please describe why you chose that plot type and any transformations to the data that you had to make in order to generate your visualization. Additionally, please describe any interesting trends (i.e., increased monthly sales) that you observe in your results.
+
+This is a required discussion and counts toward program completion.
+____________________________________________________________________________________________________________________________________________________________
+
+
+Apr 8, 2024Local: Apr 8 at 4:11am<br>Course: Apr 8 at 1:11am
+This process helps determine good homes in terms of price, room size, and the best time to start looking for a home, either to buy or to rent.
+
+I chose the line chart because it provides a clear and direct way to view price changes over a certain period of time. This type of chart allows you to easily track trends and identify patterns such as seasonal or cyclical rises and falls in prices. It also helps identify periods of significant price fluctuations, which may be indicative of an economic event or market change.
+
+In addition, a line chart can clearly show the overall trend of prices, whether that is an upward or downward trend over the time period displayed. This helps decision makers in understanding the overall dynamics of the market and make informed decisions based on the data provided.
+
+To analyze the chart I provided, we can note the following points:
+
+Price fluctuations: There are clear changes in prices over the months shown, with a significant decline in prices between August 2018 and January 2019, and a sharp rise until June 2019.
+Buy and Sell Times: This information can be used to determine potential times to buy when prices are low and times to sell when prices are high.
+External factors: Continuous changes may indicate the influence of external factors on the market appreciation of real estate.
+Importance of Retail: It is important to study retail to understand the reasons behind these price fluctuations.
+These fluctuations can be the result of several factors such as changes in the macroeconomy, changes in housing policies, or even seasonal factors
+
+da.jpg
+
+ 
+
+I chose a scatter plot because it provides an effective way to display the relationship between two quantitative variables and to identify patterns of distribution between them. In the case of real estate data, a scatter plot can show how the price changes (the dependent variable) as the living space changes (the independent variable). This helps determine whether there is a certain trend or linear relationship between price and living space.
+
+In addition, a scatter plot can reveal exceptions and outliers that may need further analysis. For example, if there are homes with large living spaces but relatively low prices, this may indicate that there are other factors influencing the price such as location or condition. This type of analysis can provide valuable insights to decision makers in the real estate market.
+
+ 
+
+الإخراج.png
+
+ 
+
+ 
+
+Edited by FAYYAD BAYAN on Apr 8 at 4:13am
+View in discussion
+FAYYAD BAYAN
+FAYYAD BAYAN
+Apr 8, 2024Local: Apr 8 at 4:16am<br>Course: Apr 8 at 1:16am
+wow this might be helpful 
+
+View in discussion
+FAYYAD BAYAN
+FAYYAD BAYAN
+Apr 8, 2024Local: Apr 8 at 4:16am<br>Course: Apr 8 at 1:16am
+wow this might be helpful 
+
+View in discussion
+Hardikkumar Zaveri
+Hardikkumar Zaveri
+Apr 8, 2024Local: Apr 8 at 8:49pm<br>Course: Apr 8 at 5:49pm
+Hi Fayyad Bayan,
+
+Thanks for sharing line chart and scatter chart on home dataset. The line chart can also to predict cooling period for purchase and helps builder to come up with promotional strategy to increase sell.
+
+Regarding sqft_living vs price scatter chart, the interesting thing is up to 3000 SQFT, most of the plots remains very closer but with 4000 SQFT and above, the price remains closer (price not increase with SQFT)... Is this due to AGE of the house or any other factor?
+
+ 
+
+ 
+
+Edited by Hardikkumar Zaveri on Apr 8 at 8:50pm
+View in discussion
+Anshika Verma
+Anshika Verma
+Apr 11, 2024Local: Apr 11 at 10:07am<br>Course: Apr 11 at 7:07am
+Fayyad, thanks for sharing this analysis as it can help to understand what would correct time to buy or sell a house. I agree house prices play a signification role in the economy. 
+
+View in discussion
+FAYYAD BAYAN
+FAYYAD BAYAN
+Apr 15, 2024Local: Apr 15 at 5:16pm<br>Course: Apr 15 at 2:16pm
+Yes, this may be due to several factors that affect homes with a large area, including the age of the home, the difficulty of reaching it, or because it is far from the city center. The biggest reason is due to the consumer’s preference for a specific category of homes.
+
+View in discussion
+FAYYAD BAYAN
+FAYYAD BAYAN
+Apr 15, 2024Local: Apr 15 at 5:18pm<br>Course: Apr 15 at 2:18pm
+Thank you very much. Yes, this data is very useful in determining the periods during which consumers can buy a home, and it is mainly useful for consumers with limited income in determining their priorities.
+
+View in discussion
+Geny Ngambia
+Geny Ngambia
+Apr 18, 2024Local: Apr 18 at 9:07am<br>Course: Apr 18 at 6:07am
+Hi Fayyad, great work!
+
+A minor suggestion would be to add a trend line to the scatter plot to clearly show the relationship between living space size and price. This will help viewers see the general pattern at a glance.
+
+View in discussion
+FAYYAD BAYAN
+FAYYAD BAYAN
+Apr 20, 2024Local: Apr 20 at 5:08pm<br>Course: Apr 20 at 2:08pm
+I appreciate the thoroughness of your analysis, particularly your attention to data cleanliness and the use of descriptive statistics to understand the distribution of key variables. Your visualizations, including the pie graphs, stacked bar graph, and scatter plot, effectively convey the relationships between different attributes and property sales across different counties.
+
+One aspect that stood out to me was your observation regarding the contribution of Manhattan to total sales revenue and area sold, despite having a smaller number of sales. This insight highlights the significance of Manhattan's real estate market within the broader context of New York City.
+
+Overall, your analysis provides valuable insights into the dynamics of the New York housing market, and your clear and concise presentation enhances the understanding of complex relationships within the data. Well done!
+
+View in discussion
+FAYYAD BAYAN
+FAYYAD BAYAN
+Apr 20, 2024Local: Apr 20 at 5:12pm<br>Course: Apr 20 at 2:12pm
+I'm glad to see you're diving deeper into our Amazon Kitchen Best Sellers Dataset. Your decision to focus on stars, reviews, and prices makes perfect sense – these factors are crucial for us as consumers, right? I'm always curious about how other people perceive products and their experiences with them, so it's great to see you tackling this angle.
+
+Your scatter plots really shed light on some interesting trends. It's fascinating how most products don't exceed 100,000 reviews, isn't it? And spotting those outliers where cheaper products have way more reviews is eye-opening. I guess affordability really drives attention.
+
+I also appreciate your attention to detail in transforming the data for clarity. It's essential to make sure our visuals are as clear as possible for anyone looking at them.
+
+Looking ahead, it might be cool to dig deeper into specific product categories or explore other variables that could impact consumer behavior. I'm eager to see where your analysis takes us next!
+
+View in discussion
+The following content is partner provided
+The preceding content is partner provided
